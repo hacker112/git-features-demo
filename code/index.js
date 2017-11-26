@@ -64,13 +64,6 @@
         return jasmine.Expectation.Factory(options);
     }
 
-    function spyOn(obj, methodName) {
-        var spy = jasmine.createSpy(methodName, obj[methodName]);
-        obj[methodName] = spy;
-
-        return spy;
-    }
-
     module.exports = {
         global: function registerJasmineGlobally() {
             if (!global.jasmine) {
@@ -79,7 +72,6 @@
                 global.expect = expect;
             }
         },
-        spyOn: spyOn,
         jasmine: jasmine,
         expect: expect
     };
