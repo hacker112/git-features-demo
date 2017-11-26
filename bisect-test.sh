@@ -2,4 +2,4 @@
 
 echo "BAD"
 
-exit 1
+exit 2
