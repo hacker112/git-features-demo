@@ -12,9 +12,15 @@
 # Checkout branch
 git checkout demo/rebase-clean
 
+# look at the tree
+git tree
+
 # Run the rebase
 git rebase demo/rebase
-# Done
+
+# look at the tree afterwars
+git tree
+
 ```
 
 ### Rebase with confict
@@ -22,10 +28,16 @@ git rebase demo/rebase
 # Checkout branch
 git checkout demo/rebase-conflict
 
+# look at the tree
+git tree
+
 # Run the rebase
 git rebase demo/rebase
 
 # Follow the instructions git gives you
+
+# look at the tree afterwars
+git tree
 ```
 
 ### Interactive Rebase
@@ -33,6 +45,14 @@ git rebase demo/rebase
 # Checkout branch
 git checkout demo/rebase-interactive
 
+# look at the tree
+git tree
+
 # Run the rebase
 git rebase -i demo/rebase
+
+# look at the tree afterwards
+git tree
+
+
 ```
