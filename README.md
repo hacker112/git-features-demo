@@ -1,13 +1,3 @@
-# git-features-demo
-git features demo for git presentations
+[Back to demos](https://github.com/hacker112/git-features-demo/tree/master)
 
-## Setup
-
-```bash
-git clone https://github.com/hacker112/git-features-demo.git
-cd git-features-demo
-```
-
-## Demos
-
-* [Bisect](https://github.com/hacker112/git-features-demo/tree/demo/bisect)
+## Demo
