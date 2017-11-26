@@ -1,4 +1,4 @@
 # jasmocha
 Use jasmine matchers in mocha
 
-I can not spel corectly.
+I can not spell correctly.
