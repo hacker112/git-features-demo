@@ -1,3 +1,5 @@
 #!/bin/sh
 
-echo "OK"
+echo "BAD"
+
+exit 1
