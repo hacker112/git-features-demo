@@ -36,7 +36,7 @@
         };
     };
 
-    jasmine.Expectation.addCoreMatchers(jasmine.matchers);
+    jasmine.Expectation.addOtherMatchers(jasmine.matchers);
 
     function expect(actual) {
         var options = {
