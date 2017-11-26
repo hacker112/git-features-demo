@@ -47,7 +47,7 @@ Which revision is the bad one?
 git bisect reset
 ```
 
-Want to make it more atomatic you can specify a command that we expect to return non zero when revision is bad:
+Want to make it more automatic you can specify a command that we expect to return non zero when revision is bad:
 
 ```bash
 git bisect reset
